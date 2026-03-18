@@ -2,3 +2,7 @@
     font-family: Tinos !important;
     font-size: 18px !important;
 }
+
+.article-banner.article__support {
+    display: none;
+}
