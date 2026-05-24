@@ -1,8 +1,16 @@
 .article-content p {
     font-family: Tinos !important;
     font-size: 18px !important;
+    line-height: 24px !important;
 }
 
-.article-banner {
+.article-banner, .player {
     display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .article-content {
+    max-width: 600px;
+    magin: 0 auto;
+  }
 }
